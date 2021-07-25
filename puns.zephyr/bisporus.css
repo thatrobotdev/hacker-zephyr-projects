@@ -1,0 +1,129 @@
+* {
+  margin:0;
+  border:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html {
+  min-height:100%;
+  scrollbar-color:#c8c8c8 #dedede;
+  scrollbar-width:thin
+}
+
+body {
+  font-family:sans-serif;
+  background-color:#efefef;
+  color:#444;
+  padding:2ch
+}
+
+main {
+  max-width:70ch;
+  margin:auto
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom:1rem
+}
+
+h1 {
+  font-size:2.5rem
+}
+
+h2 {
+  font-size:2rem
+}
+
+h3 {
+  font-size:1.6rem
+}
+
+h4 {
+  font-size:1.2rem
+}
+
+p, button, input, textarea {
+  font-family:Arial, sans-serif;
+  margin-bottom:0.5rem;
+  font-size:18px
+}
+
+p.smaller {
+  font-size:16px
+}
+
+i {
+  color:#888
+}
+
+small {
+  font-size:0.875rem;
+  color:#888
+}
+
+h1 small {
+  font-size:1.75rem
+}
+
+li {
+  margin-bottom:0.25rem;
+  font-size:18px
+}
+
+header, main, ul, ol, .endsec {
+  margin-bottom:4rem
+}
+
+header, footer, main.centered {
+  text-align:center
+}
+
+button {
+  padding:0.75rem 1.5rem;
+  background-color:rgba(0, 0, 0, 0);
+  border:2px solid #666;
+  border-radius:8px;
+  font-size:20px;
+  box-shadow:0px 1px 0px #222;
+}
+
+button:active {
+  margin-top:3px
+}
+
+input, textarea {
+  display:block;
+  padding:0.5rem;
+  background-color:rgba(0, 0, 0, 0);
+  border:2px solid #666;
+  border-radius:8px;
+  font-size:20px
+}
+
+::-webkit-scrollbar {
+  width:12px;
+  height:12px
+}
+
+::-webkit-scrollbar-track {
+  background:#dedede;
+  border-radius:6px
+}
+
+::-webkit-scrollbar-thumb {
+  background:#c8c8c8;
+  border-radius:6px
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:#b2b2b2
+}
+
+::selection {
+  background-color:#ddd
+}
+
+::-moz-selection {
+  background-color:#ddd
+}

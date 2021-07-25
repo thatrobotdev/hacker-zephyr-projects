@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black">
+
+        <link href="index.css" rel="stylesheet"></link>
+        <title>Zephyr Contacts</title>
+    </head>
+    <body>
+        <nav class="grid-container">
+            <div>
+                <summary>Made by <a href="https://jp.zephyr/">JP</a>! <a href="https://jp.zephyr/">Other 🚢s: </a></summary>
+            </div>
+            <div id="icon-container">
+                <a href="https://start.zephyr"><img id="icon" src="rampus_bit_dino.png"></a>
+            </div>
+        </nav>
+        <div id="under-construction">
+            <span><a href="https://contacts.zephyr/">ℹ️ Check out the STABLE version! <br></a>🚧 PAGE UNDER CONSTRUCTION. Functionality may be broken/incomplete</span>
+        </div>
+        <div id="help">
+            <span>⚠️ LOOKING FOR HELP! I know nothing about backend stuff, and I'm looking for a partner to help me with
+                building a backend for this site! The backend would accept uploaded contact files, and send data to the front
+                end to preview contacts and allow them to be downloaded. I'm JP, if you are able to help out! Thank you ✨</span>
+        </div>
+        
+        <div id="hero">
+            <div id="logo-container">
+                <img src="Zephyr Contacts Logo.png" id="hero-logo">
+                <h1>Zephyr Contacts<sup>™️ (BETA)</sup></h1>
+            </div>
+            <h2 id="subtitle">Add everyone on the Zephyr to your contacts!</h2>
+        </div>
+        <details id="make-your-own">
+            <summary><h3>Upload a new contact file...</h3></summary>
+            <p><b><mark>🚧 Uploads aren't supported right now. See ⚠️ above</mark></b></p>
+            <h4>Data Sharing Warning</h4>
+            <p>This website will have all of the contact files deleted on the day before the Zephyr finishes, to stop contacts from going on the public internet. However, <b>you</b> are responsible for anything you upload, so please make sure your files are deleted!</p>
+
+            <h4>Table of Contents</h4>
+
+            <p><a href="#iOS">iOS Instructions</a></p>
+            <p><a href="#Android">Android Instructions</a></p>
+            <p><a href="#Upload">Upload</a></p>
+            
+            <div id="iOS">
+                <h4 class="instructions-header">iOS Instructions</h4>
+                <ol>
+                    <li>Open the "Contacts" app.</li>
+                    <li>Open the contact you want to upload.</li>
+                    <li>Scroll to the bottom, and click "Share contact".</li>
+                    <li>Using AirDrop or another method, share the file with your computer.</li>
+                    <li>Click the "Browse" button below, and select the .vcf file.</li>
+                    <li>Click "Submit".</li>
+                    <p>Happy hacking!</p>
+                </ol>
+            </div>
+
+            <div id="Android>">
+                <h4 class="instructions-header">Android Instructions</h4>
+                <p>Please contribute to this page! I don't have an android phone xD</p>
+            </div>
+
+            <div id="Upload">
+                <h4 class="instructions-header">Upload</h4>
+                <form name="VCF Upload" method="post" enctype="multipart/form-data">
+                    <div>
+                        <label for="contact">Upload contact file (.vcf)</label>
+                        <input type="file" name="contact" accept=".vcf">
+                    </div>
+                    <div>
+                        <button>Submit</button>
+                    </div>
+                </form>
+            </div>
+        </details>
+
+        <main>
+            <div class="contact-preview">
+                <img class="avatar" src="jp.jpeg">
+                <h2>JP Kerrane</h2>
+                <h3><a href="tel://##########">[REMOVED TELEPHONE#]</a></h3>
+                <button>Download Contact</button>
+                <button>Delete Contact</button>
+            </div>
+            <div class="contact-preview">
+                <img class="avatar" src="Zephyr Contacts Logo.png">
+                <h2>Sample Name</h2>
+                <h3><a href="tel://5555555555">(555) 555-5555</a></h3>
+                <button>Download Contact</button>
+                <button>Delete Contact</button>
+            </div>
+            <div class="contact-preview">
+                <img class="avatar" src="Zephyr Contacts Logo.png">
+                <h2>Sample Name</h2>
+                <h3><a href="tel://5555555555">(555) 555-5555</a></h3>
+                <button>Download Contact</button>
+                <button>Delete Contact</button>
+            </div>
+            
+        </main>
+
+        <footer>
+            <div id="version-container">
+                <span><a href="#">Please edit this page!</a> Feel free to add new features, fix bugs, and add your own flair.</span>
+                <span id="version">🚆 v0.0.1, 7/17/2021</span>
+            </div>
+            <h2>TODO:</h2>
+            <ul>
+                <li>⚠️ HELP: Find someone to help with the backend!</li>
+                <li>Add more info to the preview (maybe a full-page contact sheet for anyone?)</li>
+                <li>Turn into a Progressive Web App</li>
+                <ul>
+                    <li>⚠️ HELP: Anyone have any PWA docs?</li>
+                </ul>
+                <li>Get hosted on the Zephyr server with a URL</li>
+                <li>Set up an automatic delete of contact files near the end of the trip</li>
+            </ul>
+            <p>Thanks to these people (add your name and contribution!):</p>
+            <ul>
+                <li>Your name here!</li>
+            </ul>
+        </footer>
+        
+    </body>
+
+</html>

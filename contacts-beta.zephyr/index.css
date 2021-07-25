@@ -1,0 +1,147 @@
+span, a, summary {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    text-decoration: underline dotted black;
+    padding-left: 1vw;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+h3 {
+    font-weight: 50;
+}
+
+nav {
+    background-color: #4d67ff;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 0px;
+    position: sticky;
+    padding: 1vw 1vw 0.5vw;
+}
+
+nav a, footer a {
+    color: white;
+}
+
+nav * {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#icon-container {
+    text-align: right;
+    padding-right: 0.5vwpx;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: "a a";
+    grid-auto-columns: auto;
+}
+
+#hero-logo {
+    height: 9vh;
+}
+
+#logo-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    padding-top: 1vh;
+}
+
+#subtitle {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 2vh;
+}
+
+#make-your-own {
+    background-color: #252525;
+    color: white;
+    padding-left: 100px;
+}
+
+#make-your-own h3 {
+    display: inline-block;
+}
+
+#under-construction {
+    background-color: yellow;
+}
+
+.instructions-header {
+    padding-left: 0px;
+    text-decoration: underline dotted white;
+}
+
+body  {
+    background-color: #ffe1b3;
+}
+
+.avatar {
+    height: 10vh;
+}
+
+.contact-preview {
+    display: grid;
+    grid: auto-flow / 1fr;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 1vh;
+    
+}
+
+footer {
+    padding: 1vh;
+    margin-top: 1vh;
+    margin-bottom: 0;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+#help {
+    background-color: red;
+    color: white;
+}
+
+#version-container {
+    display: grid;
+    grid-template-areas: "a a";
+    grid-auto-columns: auto;
+}
+
+#version {
+    text-align: right;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: "a a";
+    grid-auto-columns: auto;
+}
+
+#icon {
+    height: 3vh;
+}
+
+#icon-container {
+    text-align: right;
+    padding-right: 0.5vw;
+}

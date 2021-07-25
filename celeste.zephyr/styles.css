@@ -1,0 +1,68 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #4d67ff;
+    color: white;
+
+    top: 0px;
+    position: sticky;
+
+    padding: 1vw 1vw 0.5vw;
+}
+
+nav {
+    background-color: #4d67ff;
+    color: white;
+
+    top: 0px;
+    position: sticky;
+
+    padding: 1vw 1vw 0.5vw;
+}
+
+nav a {
+    color: white;
+}
+
+nav * {
+    font-size: initial;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: "a a";
+    grid-auto-columns: auto;
+}
+
+#icon-container {
+    text-align: right;
+    padding-right: 0.5vw;
+}
+
+#icon {
+    height: 3vh;
+}
+
+h1, h2, h3, ul, p, li, figure {
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+summary {
+    padding-bottom: 1vh;
+}
+
+h1, figure {
+    padding-top: 5vh;
+}
+
+img {
+    height: 10vw;
+}
+
+.highlight {
+    background-color: yellow;
+}
