@@ -12,7 +12,7 @@ Originally, these websites were hosted on a custom local internet on the train, 
 
 There has been some copyrighted content removed so I can host under the current [LICENCE](LICENSE.md). I've also removed some personal information.
 
-Thank you to everyone onboard who made this trip unforgettable, and to Hack Club HQ for providing the opporitunity of a lifetime.
+Thank you to everyone onboard who made this trip unforgettable, and to Hack Club HQ for providing the opportunity of a lifetime.
 
 ## Project Directory (chronological order)
 
