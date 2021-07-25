@@ -1,4 +1,4 @@
-# hacker-zephyr
+# hacker-zephyr-projects
 
 This summer, I had the pleasure of being invited to the [Hacker Zephyr](https://zephyr.hackclub.com/). The Hacker Zephyr was an intiative of the nonprofit [Hack Club](https://hackclub.com/), where I lead a chapter with a network of programming clubs across the world.
 
